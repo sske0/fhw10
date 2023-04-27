@@ -1,0 +1,48 @@
+body {
+    display: flex;
+    justify-content: center;
+}
+
+.traffic-lights {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+    height: 400px;
+    width: 400px;
+}
+
+.body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+    width: 84px;
+    border: 1px black solid;
+    background-color: black;
+    border-radius: 1%;
+}
+
+.light {
+    height: 80px;
+    width: 80px;
+    border-radius: 50%;
+    opacity: 0.05;
+    margin-top: 10px;
+}
+
+.red {
+    background-color: red;
+    box-shadow: 0 0 20px #da7a6a inset, 0 0 35px red;
+}
+
+.yellow {
+    background-color: yellow;
+    box-shadow: 0 0 20px #d8da6a inset, 0 0 35px yellow;
+}
+
+.green {
+    background-color: green;
+    box-shadow: 0 0 20px #8dda6a inset, 0 0 35px green;
+}
